@@ -1,0 +1,449 @@
+/**
+ * Public CSS for Post 116 Business Directory
+ */
+
+/* Directory Container */
+.post116-directory {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Legal Disclaimer */
+.post116-disclaimer {
+    background-color: #f8f9fa;
+    border-left: 4px solid #dc3545;
+    padding: 15px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+
+.post116-disclaimer p {
+    margin: 0;
+    font-size: 14px;
+    color: #6c757d;
+}
+
+/* Search and Filters */
+.post116-search-filters {
+    margin-bottom: 30px;
+}
+
+.post116-search-bar {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.post116-search-input {
+    width: 100%;
+    padding: 12px 50px 12px 15px;
+    border: 2px solid #dee2e6;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.post116-search-input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+}
+
+.post116-search-clear {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: #6c757d;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.post116-search-clear:hover {
+    color: #dc3545;
+}
+
+/* Autocomplete */
+.post116-autocomplete {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border: 1px solid #dee2e6;
+    border-top: none;
+    border-radius: 0 0 6px 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.post116-autocomplete-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.post116-autocomplete-item {
+    padding: 12px 15px;
+    cursor: pointer;
+    border-bottom: 1px solid #f8f9fa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post116-autocomplete-item:hover {
+    background-color: #f8f9fa;
+}
+
+.post116-autocomplete-item:last-child {
+    border-bottom: none;
+}
+
+.post116-autocomplete-text {
+    font-weight: 500;
+}
+
+.post116-autocomplete-type {
+    font-size: 12px;
+    color: #6c757d;
+    background-color: #e9ecef;
+    padding: 2px 6px;
+    border-radius: 3px;
+}
+
+.post116-autocomplete-loading {
+    padding: 15px;
+    text-align: center;
+    color: #6c757d;
+}
+
+/* Filters */
+.post116-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+}
+
+.post116-filter {
+    padding: 8px 12px;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    background-color: white;
+    font-size: 14px;
+}
+
+.post116-ownership-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.post116-ownership-filters label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.post116-ownership-filters input[type="checkbox"] {
+    margin: 0;
+}
+
+/* Loading */
+.post116-loading {
+    text-align: center;
+    padding: 40px;
+    color: #6c757d;
+    font-size: 16px;
+}
+
+/* Results */
+.post116-results.loading {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.post116-businesses-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+/* Business Cards */
+.post116-business-card {
+    background: white;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.post116-business-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.post116-business-header {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.post116-business-logo {
+    flex-shrink: 0;
+    width: 80px;
+    height: 80px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #f8f9fa;
+}
+
+.post116-business-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.post116-business-info {
+    flex: 1;
+}
+
+.post116-business-title {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.post116-business-title a {
+    color: #212529;
+    text-decoration: none;
+}
+
+.post116-business-title a:hover {
+    color: #007bff;
+}
+
+.post116-business-categories {
+    margin-bottom: 10px;
+}
+
+.post116-category-tag {
+    display: inline-block;
+    background-color: #e9ecef;
+    color: #495057;
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.post116-category-tag a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.post116-ownership-flags {
+    margin-bottom: 10px;
+}
+
+.post116-flag {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.post116-flag.veteran {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.post116-flag.sons {
+    background-color: #cce5ff;
+    color: #004085;
+}
+
+.post116-flag.auxiliary {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+/* Business Details */
+.post116-business-details {
+    margin-bottom: 15px;
+}
+
+.post116-business-details > div {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.post116-business-details strong {
+    color: #495057;
+}
+
+.post116-business-details a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.post116-business-details a:hover {
+    text-decoration: underline;
+}
+
+.post116-business-services p {
+    margin: 5px 0 0 0;
+    color: #6c757d;
+    line-height: 1.4;
+}
+
+/* Business Footer */
+.post116-business-footer {
+    border-top: 1px solid #f8f9fa;
+    padding-top: 15px;
+    text-align: right;
+}
+
+.post116-view-details {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.post116-view-details:hover {
+    background-color: #0056b3;
+    color: white;
+    text-decoration: none;
+}
+
+/* Pagination */
+.post116-pagination {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.post116-load-more {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.post116-load-more:hover {
+    background-color: #5a6268;
+}
+
+.post116-load-more:disabled {
+    background-color: #adb5bd;
+    cursor: not-allowed;
+}
+
+/* No Results */
+.post116-no-results {
+    text-align: center;
+    padding: 60px 20px;
+    color: #6c757d;
+}
+
+.post116-no-results p {
+    font-size: 18px;
+    margin: 0;
+}
+
+/* Error */
+.post116-error {
+    text-align: center;
+    padding: 40px 20px;
+    color: #dc3545;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    border-radius: 6px;
+}
+
+/* Back to Directory */
+.post116-back-to-directory {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.post116-back-link {
+    display: inline-block;
+    color: #6c757d;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+.post116-back-link:hover {
+    color: #495057;
+    background-color: #f8f9fa;
+    text-decoration: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .post116-directory {
+        padding: 15px;
+    }
+    
+    .post116-businesses-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .post116-filters {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .post116-ownership-filters {
+        justify-content: center;
+    }
+    
+    .post116-business-header {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .post116-business-logo {
+        align-self: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .post116-business-card {
+        padding: 15px;
+    }
+    
+    .post116-search-input {
+        font-size: 16px; /* Prevent zoom on iOS */
+    }
+}

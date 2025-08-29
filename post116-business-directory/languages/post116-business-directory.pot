@@ -1,0 +1,733 @@
+# Copyright (C) 2024 American Legion Post 116
+# This file is distributed under the same license as the Post 116 Business Directory package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Post 116 Business Directory 1.0.0\n"
+"Report-Msgid-Bugs-To: https://alpost116nc.org\n"
+"POT-Creation-Date: 2024-01-01 00:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: includes/class-post-type.php:15
+msgid "Businesses"
+msgstr ""
+
+#: includes/class-post-type.php:16
+msgid "Business"
+msgstr ""
+
+#: includes/class-post-type.php:17
+msgid "Business Directory"
+msgstr ""
+
+#: includes/class-post-type.php:18
+msgid "Business"
+msgstr ""
+
+#: includes/class-post-type.php:19
+msgid "Business Archives"
+msgstr ""
+
+#: includes/class-post-type.php:20
+msgid "Business Attributes"
+msgstr ""
+
+#: includes/class-post-type.php:21
+msgid "Parent Business:"
+msgstr ""
+
+#: includes/class-post-type.php:22
+msgid "All Businesses"
+msgstr ""
+
+#: includes/class-post-type.php:23
+msgid "Add New Business"
+msgstr ""
+
+#: includes/class-post-type.php:24
+msgid "Add New"
+msgstr ""
+
+#: includes/class-post-type.php:25
+msgid "New Business"
+msgstr ""
+
+#: includes/class-post-type.php:26
+msgid "Edit Business"
+msgstr ""
+
+#: includes/class-post-type.php:27
+msgid "Update Business"
+msgstr ""
+
+#: includes/class-post-type.php:28
+msgid "View Business"
+msgstr ""
+
+#: includes/class-post-type.php:29
+msgid "View Businesses"
+msgstr ""
+
+#: includes/class-post-type.php:30
+msgid "Search Businesses"
+msgstr ""
+
+#: includes/class-post-type.php:31
+msgid "Not found"
+msgstr ""
+
+#: includes/class-post-type.php:32
+msgid "Not found in Trash"
+msgstr ""
+
+#: includes/class-post-type.php:33
+msgid "Business Logo"
+msgstr ""
+
+#: includes/class-post-type.php:34
+msgid "Set business logo"
+msgstr ""
+
+#: includes/class-post-type.php:35
+msgid "Remove business logo"
+msgstr ""
+
+#: includes/class-post-type.php:36
+msgid "Use as business logo"
+msgstr ""
+
+#: includes/class-post-type.php:37
+msgid "Insert into business"
+msgstr ""
+
+#: includes/class-post-type.php:38
+msgid "Uploaded to this business"
+msgstr ""
+
+#: includes/class-post-type.php:39
+msgid "Businesses list"
+msgstr ""
+
+#: includes/class-post-type.php:40
+msgid "Businesses list navigation"
+msgstr ""
+
+#: includes/class-post-type.php:41
+msgid "Filter businesses list"
+msgstr ""
+
+#: includes/class-post-type.php:50
+msgid "Business"
+msgstr ""
+
+#: includes/class-post-type.php:51
+msgid "Member businesses and services directory"
+msgstr ""
+
+#: includes/class-taxonomy.php:15
+msgid "Business Categories"
+msgstr ""
+
+#: includes/class-taxonomy.php:16
+msgid "Business Category"
+msgstr ""
+
+#: includes/class-taxonomy.php:17
+msgid "Categories"
+msgstr ""
+
+#: includes/class-taxonomy.php:18
+msgid "All Categories"
+msgstr ""
+
+#: includes/class-taxonomy.php:19
+msgid "Parent Category"
+msgstr ""
+
+#: includes/class-taxonomy.php:20
+msgid "Parent Category:"
+msgstr ""
+
+#: includes/class-taxonomy.php:21
+msgid "New Category Name"
+msgstr ""
+
+#: includes/class-taxonomy.php:22
+msgid "Add New Category"
+msgstr ""
+
+#: includes/class-taxonomy.php:23
+msgid "Edit Category"
+msgstr ""
+
+#: includes/class-taxonomy.php:24
+msgid "Update Category"
+msgstr ""
+
+#: includes/class-taxonomy.php:25
+msgid "View Category"
+msgstr ""
+
+#: includes/class-taxonomy.php:26
+msgid "Separate categories with commas"
+msgstr ""
+
+#: includes/class-taxonomy.php:27
+msgid "Add or remove categories"
+msgstr ""
+
+#: includes/class-taxonomy.php:28
+msgid "Choose from the most used"
+msgstr ""
+
+#: includes/class-taxonomy.php:29
+msgid "Popular Categories"
+msgstr ""
+
+#: includes/class-taxonomy.php:30
+msgid "Search Categories"
+msgstr ""
+
+#: includes/class-taxonomy.php:31
+msgid "Not Found"
+msgstr ""
+
+#: includes/class-taxonomy.php:32
+msgid "No categories"
+msgstr ""
+
+#: includes/class-taxonomy.php:33
+msgid "Categories list"
+msgstr ""
+
+#: includes/class-taxonomy.php:34
+msgid "Categories list navigation"
+msgstr ""
+
+#: includes/class-meta-fields.php:25
+msgid "Business Owners"
+msgstr ""
+
+#: includes/class-meta-fields.php:35
+msgid "Contact Information"
+msgstr ""
+
+#: includes/class-meta-fields.php:45
+msgid "Address"
+msgstr ""
+
+#: includes/class-meta-fields.php:55
+msgid "Ownership Flags"
+msgstr ""
+
+#: includes/class-meta-fields.php:65
+msgid "Additional Links"
+msgstr ""
+
+#: includes/class-meta-fields.php:75
+msgid "Services Offered"
+msgstr ""
+
+#: includes/class-meta-fields.php:85
+msgid "Display Options"
+msgstr ""
+
+#: includes/class-meta-fields.php:95
+msgid "Add business owners with their contact information."
+msgstr ""
+
+#: includes/class-meta-fields.php:110
+msgid "Add Owner"
+msgstr ""
+
+#: includes/class-meta-fields.php:120
+msgid "Owner %d"
+msgstr ""
+
+#: includes/class-meta-fields.php:121
+msgid "Remove"
+msgstr ""
+
+#: includes/class-meta-fields.php:125
+msgid "Name"
+msgstr ""
+
+#: includes/class-meta-fields.php:130
+msgid "Role"
+msgstr ""
+
+#: includes/class-meta-fields.php:131
+msgid "e.g., Owner, Manager, Partner"
+msgstr ""
+
+#: includes/class-meta-fields.php:135
+msgid "Email"
+msgstr ""
+
+#: includes/class-meta-fields.php:140
+msgid "Phone"
+msgstr ""
+
+#: includes/class-meta-fields.php:145
+msgid "Website"
+msgstr ""
+
+#: includes/class-meta-fields.php:160
+msgid "Business Phone"
+msgstr ""
+
+#: includes/class-meta-fields.php:165
+msgid "Business Email"
+msgstr ""
+
+#: includes/class-meta-fields.php:170
+msgid "Website URL"
+msgstr ""
+
+#: includes/class-meta-fields.php:180
+msgid "Address Line 1"
+msgstr ""
+
+#: includes/class-meta-fields.php:185
+msgid "Address Line 2"
+msgstr ""
+
+#: includes/class-meta-fields.php:190
+msgid "City"
+msgstr ""
+
+#: includes/class-meta-fields.php:195
+msgid "State"
+msgstr ""
+
+#: includes/class-meta-fields.php:200
+msgid "Postal Code"
+msgstr ""
+
+#: includes/class-meta-fields.php:210
+msgid "Veteran Owned"
+msgstr ""
+
+#: includes/class-meta-fields.php:212
+msgid "Sons of American Legion Owned"
+msgstr ""
+
+#: includes/class-meta-fields.php:214
+msgid "Auxiliary Owned"
+msgstr ""
+
+#: includes/class-meta-fields.php:225
+msgid "Add additional links (social media, directories, etc.)"
+msgstr ""
+
+#: includes/class-meta-fields.php:240
+msgid "Add Link"
+msgstr ""
+
+#: includes/class-meta-fields.php:250
+msgid "Label"
+msgstr ""
+
+#: includes/class-meta-fields.php:251
+msgid "e.g., Facebook, LinkedIn"
+msgstr ""
+
+#: includes/class-meta-fields.php:255
+msgid "URL"
+msgstr ""
+
+#: includes/class-meta-fields.php:270
+msgid "Brief list of services offered (one per line)"
+msgstr ""
+
+#: includes/class-meta-fields.php:280
+msgid "Show in directory"
+msgstr ""
+
+#: includes/class-admin.php:25
+msgid "Categories"
+msgstr ""
+
+#: includes/class-admin.php:26
+msgid "Owners"
+msgstr ""
+
+#: includes/class-admin.php:27
+msgid "City"
+msgstr ""
+
+#: includes/class-admin.php:28
+msgid "Phone"
+msgstr ""
+
+#: includes/class-admin.php:29
+msgid "Ownership"
+msgstr ""
+
+#: includes/class-admin.php:30
+msgid "Date"
+msgstr ""
+
+#: includes/class-admin.php:45
+msgid "—"
+msgstr ""
+
+#: includes/class-admin.php:60
+msgid "Veteran"
+msgstr ""
+
+#: includes/class-admin.php:63
+msgid "Sons"
+msgstr ""
+
+#: includes/class-admin.php:66
+msgid "Auxiliary"
+msgstr ""
+
+#: includes/class-admin.php:100
+msgid "All Categories"
+msgstr ""
+
+#: includes/class-admin.php:105
+msgid "All Ownership Types"
+msgstr ""
+
+#: includes/class-admin.php:106
+msgid "Veteran Owned"
+msgstr ""
+
+#: includes/class-admin.php:107
+msgid "Sons Owned"
+msgstr ""
+
+#: includes/class-admin.php:108
+msgid "Auxiliary Owned"
+msgstr ""
+
+#: includes/class-admin.php:111
+msgid "All Businesses"
+msgstr ""
+
+#: includes/class-admin.php:112
+msgid "Shown in Directory"
+msgstr ""
+
+#: includes/class-admin.php:113
+msgid "Hidden from Directory"
+msgstr ""
+
+#: includes/class-settings.php:35
+msgid "Directory Settings"
+msgstr ""
+
+#: includes/class-settings.php:36
+msgid "Settings"
+msgstr ""
+
+#: includes/class-settings.php:50
+msgid "General Settings"
+msgstr ""
+
+#: includes/class-settings.php:60
+msgid "Directory Page"
+msgstr ""
+
+#: includes/class-settings.php:70
+msgid "Show Ownership Flags"
+msgstr ""
+
+#: includes/class-settings.php:80
+msgid "Enable Map View"
+msgstr ""
+
+#: includes/class-settings.php:90
+msgid "Businesses Per Page"
+msgstr ""
+
+#: includes/class-settings.php:100
+msgid "Display Settings"
+msgstr ""
+
+#: includes/class-settings.php:110
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/class-settings.php:120
+msgid "Business Directory Settings"
+msgstr ""
+
+#: includes/class-settings.php:130
+msgid "Configure general settings for the business directory."
+msgstr ""
+
+#: includes/class-settings.php:140
+msgid "Customize the appearance of the business directory."
+msgstr ""
+
+#: includes/class-settings.php:150
+msgid "Select a page..."
+msgstr ""
+
+#: includes/class-settings.php:160
+msgid "Select the page that contains the business directory."
+msgstr ""
+
+#: includes/class-settings.php:170
+msgid "Show ownership flags (Veteran Owned, Sons Owned, Auxiliary Owned) in the directory"
+msgstr ""
+
+#: includes/class-settings.php:180
+msgid "Enable map view for businesses with addresses (Phase 2 feature)"
+msgstr ""
+
+#: includes/class-settings.php:190
+msgid "Number of businesses to display per page (1-100)"
+msgstr ""
+
+#: includes/class-settings.php:200
+msgid "Add custom CSS to style the business directory. This will be added to the page head."
+msgstr ""
+
+#: includes/class-settings.php:220
+msgid "Shortcode Usage"
+msgstr ""
+
+#: includes/class-settings.php:230
+msgid "You can display the business directory on any page using the following shortcode:"
+msgstr ""
+
+#: includes/class-settings.php:240
+msgid "Shortcode Attributes"
+msgstr ""
+
+#: includes/class-settings.php:250
+msgid "Show ownership flags (true/false, default: true)"
+msgstr ""
+
+#: includes/class-settings.php:260
+msgid "Number of businesses per page (default: 20)"
+msgstr ""
+
+#: includes/class-settings.php:270
+msgid "Search placeholder text"
+msgstr ""
+
+#: includes/class-settings.php:280
+msgid "Example"
+msgstr ""
+
+#: includes/class-gutenberg-block.php:50
+msgid "Search businesses, owners, or categories..."
+msgstr ""
+
+#: includes/class-gutenberg-block.php:60
+msgid "Disclaimer:"
+msgstr ""
+
+#: includes/class-gutenberg-block.php:61
+msgid "American Legion Post 116 is not liable for or endorsing any listed businesses. Please independently verify their work quality, licenses, and insurance."
+msgstr ""
+
+#: includes/class-gutenberg-block.php:70
+msgid "All Categories"
+msgstr ""
+
+#: includes/class-gutenberg-block.php:85
+msgid "Veteran Owned"
+msgstr ""
+
+#: includes/class-gutenberg-block.php:90
+msgid "Sons Owned"
+msgstr ""
+
+#: includes/class-gutenberg-block.php:95
+msgid "Auxiliary Owned"
+msgstr ""
+
+#: includes/class-gutenberg-block.php:105
+msgid "Loading..."
+msgstr ""
+
+#: includes/class-gutenberg-block.php:115
+msgid "Load More"
+msgstr ""
+
+#: includes/class-gutenberg-block.php:120
+msgid "No businesses found."
+msgstr ""
+
+#: includes/class-gutenberg-block.php:140
+msgid "About This Business"
+msgstr ""
+
+#: includes/class-gutenberg-block.php:150
+msgid "Services Offered"
+msgstr ""
+
+#: includes/class-gutenberg-block.php:160
+msgid "Business Owners"
+msgstr ""
+
+#: includes/class-gutenberg-block.php:170
+msgid "Contact Information"
+msgstr ""
+
+#: includes/class-gutenberg-block.php:180
+msgid "Location"
+msgstr ""
+
+#: includes/class-gutenberg-block.php:190
+msgid "Additional Links"
+msgstr ""
+
+#: includes/class-gutenberg-block.php:200
+msgid "Back to Business Directory"
+msgstr ""
+
+#: includes/class-gutenberg-block.php:220
+msgid "Owners:"
+msgstr ""
+
+#: includes/class-gutenberg-block.php:230
+msgid "Location:"
+msgstr ""
+
+#: includes/class-gutenberg-block.php:240
+msgid "Phone:"
+msgstr ""
+
+#: includes/class-gutenberg-block.php:250
+msgid "Services:"
+msgstr ""
+
+#: includes/class-gutenberg-block.php:260
+msgid "View Details"
+msgstr ""
+
+#: includes/class-gutenberg-block.php:280
+msgid "Search businesses, owners, or categories..."
+msgstr ""
+
+#: public/js/public.js:50
+msgid "Search businesses, owners, or categories..."
+msgstr ""
+
+#: public/js/public.js:55
+msgid "No businesses found."
+msgstr ""
+
+#: public/js/public.js:60
+msgid "Loading..."
+msgstr ""
+
+#: templates/single-p116_business.php:15
+msgid "Disclaimer:"
+msgstr ""
+
+#: templates/single-p116_business.php:16
+msgid "American Legion Post 116 is not liable for or endorsing any listed businesses. Please independently verify their work quality, licenses, and insurance."
+msgstr ""
+
+#: templates/single-p116_business.php:50
+msgid "About This Business"
+msgstr ""
+
+#: templates/single-p116_business.php:60
+msgid "Services Offered"
+msgstr ""
+
+#: templates/single-p116_business.php:80
+msgid "Business Owners"
+msgstr ""
+
+#: templates/single-p116_business.php:90
+msgid "Email:"
+msgstr ""
+
+#: templates/single-p116_business.php:100
+msgid "Phone:"
+msgstr ""
+
+#: templates/single-p116_business.php:110
+msgid "Website:"
+msgstr ""
+
+#: templates/single-p116_business.php:130
+msgid "Contact Information"
+msgstr ""
+
+#: templates/single-p116_business.php:140
+msgid "Phone:"
+msgstr ""
+
+#: templates/single-p116_business.php:150
+msgid "Email:"
+msgstr ""
+
+#: templates/single-p116_business.php:160
+msgid "Website:"
+msgstr ""
+
+#: templates/single-p116_business.php:180
+msgid "Location"
+msgstr ""
+
+#: templates/single-p116_business.php:210
+msgid "Additional Links"
+msgstr ""
+
+#: templates/single-p116_business.php:230
+msgid "Back to Business Directory"
+msgstr ""
+
+#: templates/taxonomy-p116_business_category.php:20
+msgid "Disclaimer:"
+msgstr ""
+
+#: templates/taxonomy-p116_business_category.php:21
+msgid "American Legion Post 116 is not liable for or endorsing any listed businesses. Please independently verify their work quality, licenses, and insurance."
+msgstr ""
+
+#: templates/taxonomy-p116_business_category.php:50
+msgid "Owners:"
+msgstr ""
+
+#: templates/taxonomy-p116_business_category.php:60
+msgid "Location:"
+msgstr ""
+
+#: templates/taxonomy-p116_business_category.php:70
+msgid "Phone:"
+msgstr ""
+
+#: templates/taxonomy-p116_business_category.php:90
+msgid "Services:"
+msgstr ""
+
+#: templates/taxonomy-p116_business_category.php:100
+msgid "View Details"
+msgstr ""
+
+#: templates/taxonomy-p116_business_category.php:110
+msgid "Previous"
+msgstr ""
+
+#: templates/taxonomy-p116_business_category.php:111
+msgid "Next"
+msgstr ""
+
+#: templates/taxonomy-p116_business_category.php:120
+msgid "No businesses found in this category."
+msgstr ""
+
+#: templates/taxonomy-p116_business_category.php:125
+msgid "View all businesses"
+msgstr ""
+
+#: templates/taxonomy-p116_business_category.php:135
+msgid "Back to Business Directory"
+msgstr ""
